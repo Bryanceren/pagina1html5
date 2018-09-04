@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Empezamos con un nav, el cual unalista ul con su respectivo objetos li y un boton con placeholder, todos 
+    estos deberan ser controlados como bloques en css para que aparezcan en linea -->
+    <nav>
+        <ul>
+            <li><h1>HONG</h1></header></li>
+            <li><a href="#">Design/dev</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">inspiration</a></li>
+            <li><a href="#">social commerce</a></li>
+            <li><a href="#">all</a></li>
+            <li><a href="#">deals</a></li>
+            <li><input type="text" placeholder="Example:CSS tips"></li>
+        </ul>
+    </nav>
+     <!-- en la parte que mas resalta de la pagina tenemos una seccion de articulos, para aplicar un estilo de contenedor de articulos
+    ymejor ubicacion en la pagina en general
+    cada uno de estos tendra secciones de aunncios los cuales pueden estar vacios o no, un enlace que lleva a otra url
+    una fecha con autor en span(para ser reutilizado y manipulado en css como bloque),
+     y la clase contenido en un div para facilitar la modificacion de propiedades como el tama;o de fuente o el tipo, entre otros-->
+    <section class="articles">
+        <h2>HTML5 Website Showcase</h2>
+        <span class="reference">Lorem, ipsum dolor. 4 april 2018</span>
+        <article>
+            <section class="ad">ad</section>
+            <a href="">Live in the sykes xperience</a>
+            <span class="reference">SYKES El Salvador</span>
+            <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi placeat nihil, perspiciatis error rem fuga autem maxime.
+                 Dicta ut tenetur fuga, culpa sunt officia magnam, eius aspernatur ratione sit veniam reiciendis corrupti, et facilis reprehenderit.
+                  Culpa illum eum dolor dolores?</div>
+            <input type="button" value="show comments">
+        </article>
+    </section>
+     <!-- en esta parte, tenemos un aside el cual sera ubicado a su conveniencia encss, que tendra un form, el cual nos permitira enviar
+    el dato que nos solicita en la peque;a seccion con la clase subscribe la cual se encargara del aspecto que se asignara a los input, botones, etc
+    , para terminar con esta seccion tendremos un articulo el cual poseera secciones peque;as las cuales son de externalarticle,
+    que sera utilizada para darle el tama;o, padding y margen a c/u de estas secciones
+     -->
+    <aside>
+        <form action="mailto:whomaybeinterested@string.string">
+            <section class="subscribe">
+                <h2>Stay updated</h2>
+                <p>get free daily Lorem ipsum dolor sit amet.</p>
+                <input type="text" placeholder="insert email address">
+                <input type="submit" value="subscribe!">
+            </section>
+        </form>
+        <article>
+            <h2>You also might like</h2>
+            <section class="externalarticle">
+                <img src="" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <span class="reference">kim sun yueng</span>
+            </section>
+            <section class="externalarticle">
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <span class="reference">jackie chan</span>
+            </section>
+           <section class="externalarticle">
+                <img src="" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <span class="reference">michael jackson</span>
+            </section>     
+        </article>
+        
+    </aside>
+    <!-- por ultimo tendremos a nuestro footer, que indicara info de derechos, permisos, etc, ademas de los logos que se mostraran con iconos al final
+        de esta seccion
+     -->
+    <footer>
+            <p>all rights reserved</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quod quas voluptatibus.</p>
+            <i class=""></i>
+            <i class=""></i>
+            <i class=""></i>
+    </footer>
+</body>
+</html>
